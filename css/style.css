@@ -36,16 +36,21 @@ span{
     margin: 0px 5px;
 }
 .container{
-    width: 50%;
+    width: 60%;
     background-color: #054e52;
     display: flex;
     justify-content: end;
     margin-top: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
-.left-form{
-    width: 25%;
-    background-image: url(/images/banner.jpg);
-    background-size: cover;
+.left-form img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    width: 220px;
+    height: 300 px;
     clip-path: polygon(0 0, 79% 0, 97% 50%, 75% 100%, 0 100%, 0% 50%);
 }
 .form-container{
@@ -56,29 +61,36 @@ span{
 .form-header{
     display: flex;
     justify-content: center;
+    margin-left: -350px;
 }
 .form-header img{
     width: 90px;
-    border-radius: 50%;
+    border-radius: 35%;
+    margin-left: 280px;
 }
 .form-group{
     display: flex;
 }
 .form-group input[type=text]{
-    width: 100%;
-    margin: 10px 0px;
-    padding: 5px;
+    width: 550px;
+    margin: 15px;
+    padding: 13px; 
+    border-radius: 7px; 
+    outline-color: aqua; 
+
 }
 button{
     background-color: #017a81;
     color: white;
     margin: 10px 0px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 2px;
     border: none;
+    margin-left:17px;
 
 }
 .right-form{
+    border-top-right-radius: 20px;
     width: 20%;
     background-color: #02c4ce;
     text-align: end;
